@@ -4,6 +4,8 @@ import com.example.Projeto.Integrador.models.Laboratorio;
 import com.example.Projeto.Integrador.repositories.LaboratorioRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class LaboratorioServiceImpl implements LaboratorioService{
 
@@ -12,21 +14,17 @@ public class LaboratorioServiceImpl implements LaboratorioService{
     public LaboratorioServiceImpl(LaboratorioRepository laboratorioRepository) {
         this.laboratorioRepository = laboratorioRepository;
     }
-
-
     @Override
     public Laboratorio salvar(Laboratorio laboratorio) {
-        return null;
+        return laboratorioRepository.save(laboratorio);
     }
-
     @Override
     public Laboratorio editar(Laboratorio laboratorio) {
         return null;
     }
-
     @Override
-    public Laboratorio listar() {
-        return null;
+    public List<Laboratorio> listar() {
+        return laboratorioRepository.findAll();
     }
 
 }

@@ -4,6 +4,8 @@ import com.example.Projeto.Integrador.models.Agendamento;
 import com.example.Projeto.Integrador.repositories.AgendamentoRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class AgendamentoServiceImpl implements AgendamentoService{
 
@@ -15,7 +17,7 @@ public class AgendamentoServiceImpl implements AgendamentoService{
 
     @Override
     public Agendamento salvar(Agendamento agendamento) {
-        return null;
+        return agendamentoRepository.save(agendamento);
     }
 
     @Override
@@ -24,8 +26,8 @@ public class AgendamentoServiceImpl implements AgendamentoService{
     }
 
     @Override
-    public Agendamento listar() {
-        return null;
+    public List<Agendamento> listar() {
+        return agendamentoRepository.findAll();
     }
 
 

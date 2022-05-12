@@ -21,7 +21,7 @@ public class Agendamento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "instrutor")
+    @Transient
     private Instrutor instrutor;
 
     @Column(name = "dataInicio")
@@ -39,8 +39,8 @@ public class Agendamento {
     @Column(name = "numeroLaboratorio")
     private Integer numeroLaboratorio;
 
-
+    @Transient
     private Curso curso;
-
+    @Transient
     private Laboratorio laboratorio;
 }

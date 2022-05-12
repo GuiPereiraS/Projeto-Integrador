@@ -1,7 +1,8 @@
 package com.example.Projeto.Integrador.service;
 
-import com.example.Projeto.Integrador.models.Agendamento;
 import com.example.Projeto.Integrador.models.Laboratorio;
+
+import java.util.List;
 
 public interface LaboratorioService {
 
@@ -10,6 +11,6 @@ public interface LaboratorioService {
 
     Laboratorio editar(Laboratorio laboratorio);
 
-    Laboratorio listar();
+    List<Laboratorio> listar();
 
 }

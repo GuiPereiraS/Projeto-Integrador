@@ -4,6 +4,8 @@ import com.example.Projeto.Integrador.models.Instrutor;
 import com.example.Projeto.Integrador.repositories.InstrutorRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class InstrutorServiceImpl implements InstrutorService {
 
@@ -15,7 +17,7 @@ public class InstrutorServiceImpl implements InstrutorService {
 
     @Override
     public Instrutor salvar(Instrutor instrutor) {
-        return null;
+        return instrutorRepository.save(instrutor);
     }
 
     @Override
@@ -24,8 +26,8 @@ public class InstrutorServiceImpl implements InstrutorService {
     }
 
     @Override
-    public Instrutor listar() {
-        return null;
+    public List<Instrutor> listar() {
+        return instrutorRepository.findAll();
     }
 
 }

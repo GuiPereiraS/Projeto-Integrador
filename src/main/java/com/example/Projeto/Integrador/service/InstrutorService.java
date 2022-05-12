@@ -1,7 +1,8 @@
 package com.example.Projeto.Integrador.service;
 
-import com.example.Projeto.Integrador.models.Agendamento;
 import com.example.Projeto.Integrador.models.Instrutor;
+
+import java.util.List;
 
 public interface InstrutorService {
 
@@ -10,6 +11,6 @@ public interface InstrutorService {
 
     Instrutor editar(Instrutor instrutor);
 
-    Instrutor listar();
+    List<Instrutor> listar();
 
 }
