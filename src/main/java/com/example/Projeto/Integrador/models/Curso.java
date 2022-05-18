@@ -24,6 +24,6 @@ public class Curso {
     private String nome;
 
     @Column(name = "quantidadeDeAluno")
-    private int quantidadeAluno;
+    private int quantidadeDeAluno;
 
 }

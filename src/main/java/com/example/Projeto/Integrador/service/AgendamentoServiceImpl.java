@@ -22,7 +22,7 @@ public class AgendamentoServiceImpl implements AgendamentoService{
 
     @Override
     public Agendamento editar(Agendamento agendamento) {
-        return null;
+        return agendamentoRepository.save(agendamento);
     }
 
     @Override
@@ -30,6 +30,10 @@ public class AgendamentoServiceImpl implements AgendamentoService{
         return agendamentoRepository.findAll();
     }
 
+    @Override
+    public void deletar(Long id) {
+           agendamentoRepository.deleteById(id);
+    }
 
 
 }

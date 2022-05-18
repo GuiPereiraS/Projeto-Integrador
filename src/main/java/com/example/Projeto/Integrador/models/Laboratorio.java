@@ -25,7 +25,7 @@ public class Laboratorio {
     private String nome;
 
     @Column(name = "quantidade")
-    private String quantidade;
+    private int quantidade;
 
     @Column(name = "status")
     private boolean status;

@@ -13,4 +13,6 @@ public interface InstrutorService {
 
     List<Instrutor> listar();
 
+    void delete (Long id);
+
 }

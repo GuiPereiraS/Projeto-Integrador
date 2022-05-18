@@ -1,13 +1,13 @@
 package com.example.Projeto.Integrador.service;
 
 import com.example.Projeto.Integrador.models.Curso;
-
+import java.util.List;
 public interface CursoService {
     Curso salvar(Curso curso);
 
     Curso editar(Curso curso);
 
-    Curso listar();
+    List<Curso> listar();
 
-
+    void deletar (long id);
 }

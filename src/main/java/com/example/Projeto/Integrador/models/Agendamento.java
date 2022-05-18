@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 @Entity
 @Data
@@ -21,14 +22,11 @@ public class Agendamento {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Transient
-    private Instrutor instrutor;
-
     @Column(name = "dataInicio")
-    private LocalDateTime dataInicio;
+    private Date dataInicio;
 
     @Column(name = "dataFim")
-    private LocalDateTime dataFim;
+    private Date dataFim;
 
     @Column(name = "horarioInicio")
     private String horarioInicio;
@@ -39,6 +37,8 @@ public class Agendamento {
     @Column(name = "numeroLaboratorio")
     private Integer numeroLaboratorio;
 
+    @Transient
+    private Instrutor instrutor;
     @Transient
     private Curso curso;
     @Transient

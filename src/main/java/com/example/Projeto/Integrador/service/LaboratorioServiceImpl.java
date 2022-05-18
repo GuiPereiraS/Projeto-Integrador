@@ -20,11 +20,16 @@ public class LaboratorioServiceImpl implements LaboratorioService{
     }
     @Override
     public Laboratorio editar(Laboratorio laboratorio) {
-        return null;
+        return laboratorioRepository.save(laboratorio);
     }
     @Override
     public List<Laboratorio> listar() {
         return laboratorioRepository.findAll();
+    }
+
+    @Override
+    public void deletar(Long id) {
+        laboratorioRepository.deleteById(id);
     }
 
 }

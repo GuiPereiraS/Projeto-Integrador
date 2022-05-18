@@ -13,4 +13,6 @@ public interface LaboratorioService {
 
     List<Laboratorio> listar();
 
+    void deletar (Long id);
+
 }

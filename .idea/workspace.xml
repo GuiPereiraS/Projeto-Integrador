@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/AgendamentoControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/AgendamentoControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/CursoControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/CursoControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/LaboratórioControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/LaboratórioControllers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/AgendamentoControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/AgendamentoControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/CursoControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/CursoControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/LaboratórioControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/LaboratórioControllers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Agendamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Agendamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Laboratorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Laboratorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +77,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/guilherme.96900/Documents/Projeto-Integrador2",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "9f0275805238f934553d14ab59ca5bba"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme.96900/Documents/Projeto-Integrador2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9f0275805238f934553d14ab59ca5bba&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.ProjetoIntegradorApplication">
     <configuration name="ProjetoIntegradorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Projeto-Integrador2" />
@@ -105,7 +125,10 @@
       <workItem from="1652293343350" duration="4555000" />
       <workItem from="1652374128764" duration="1278000" />
       <workItem from="1652375475438" duration="1236000" />
-      <workItem from="1652376838291" duration="7675000" />
+      <workItem from="1652376838291" duration="8718000" />
+      <workItem from="1652471070544" duration="1191000" />
+      <workItem from="1652807400989" duration="10570000" />
+      <workItem from="1652893139911" duration="6330000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -156,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652386169769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Projeto integrador">
+      <created>1652386221512</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652386221512</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

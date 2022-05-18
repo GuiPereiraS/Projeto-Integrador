@@ -3,7 +3,7 @@ package com.example.Projeto.Integrador.service;
 import com.example.Projeto.Integrador.models.Curso;
 import com.example.Projeto.Integrador.repositories.CursoRepository;
 import org.springframework.stereotype.Service;
-
+import java.util.List;
 @Service
 public class CursoServiceImpl implements CursoService{
     final CursoRepository cursoRepository;
@@ -14,17 +14,22 @@ public class CursoServiceImpl implements CursoService{
 
     @Override
     public Curso salvar(Curso curso) {
-        return null;
+        return cursoRepository.save(curso);
     }
 
     @Override
     public Curso editar(Curso curso) {
-        return null;
+        return cursoRepository.save(curso);
     }
 
     @Override
-    public Curso listar() {
-        return null;
+    public List <Curso> listar(){
+        return cursoRepository.findAll();
+    }
+
+    @Override
+    public void deletar(long id) {
+        cursoRepository.deleteById(id);
     }
 
 }

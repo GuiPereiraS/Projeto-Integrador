@@ -12,4 +12,6 @@ public interface AgendamentoService {
 
     List<Agendamento> listar();
 
+    void deletar (Long id);
+
 }
