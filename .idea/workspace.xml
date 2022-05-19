@@ -6,36 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/AgendamentoControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/AgendamentoControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/CursoControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/CursoControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/LaboratórioControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/LaboratórioControllers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/CursoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/AgendamentoControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/AgendamentoControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/CursoControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/CursoControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/LaboratórioControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/LaboratórioControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Agendamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Agendamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Laboratorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/models/Laboratorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +102,8 @@
       <workItem from="1652376838291" duration="8718000" />
       <workItem from="1652471070544" duration="1191000" />
       <workItem from="1652807400989" duration="10570000" />
-      <workItem from="1652893139911" duration="6330000" />
+      <workItem from="1652893139911" duration="9820000" />
+      <workItem from="1652980684763" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -186,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652386221512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Projeto integrador">
+      <created>1652901752248</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652901752248</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

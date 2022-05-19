@@ -18,15 +18,15 @@ import java.util.Date;
 public class Agendamento {
 
     @Id
-    @Column(name = "id")
+    @Column(name = "id_agendamento")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "dataInicio")
-    private Date dataInicio;
+    private LocalDateTime dataInicio;
 
     @Column(name = "dataFim")
-    private Date dataFim;
+    private LocalDateTime dataFim;
 
     @Column(name = "horarioInicio")
     private String horarioInicio;
@@ -37,10 +37,15 @@ public class Agendamento {
     @Column(name = "numeroLaboratorio")
     private Integer numeroLaboratorio;
 
-    @Transient
+    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.PERSIST}, fetch = FetchType.LAZY)
+    @JoinTable(name = "agendamento_instrutor", joinColumns = @JoinColumn(name = "id_instrutor"), inverseJoinColumns = @JoinColumn(name = "id_agendamento"))
     private Instrutor instrutor;
-    @Transient
+
+    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.PERSIST}, fetch = FetchType.LAZY)
+    @JoinTable(name = "agendamento_curso", joinColumns = @JoinColumn(name = "id_curso"), inverseJoinColumns = @JoinColumn(name = "id_agendamento"))
     private Curso curso;
-    @Transient
+
+    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.DETACH, CascadeType.REFRESH, CascadeType.PERSIST}, fetch = FetchType.LAZY)
+    @JoinTable(name = "agendamento_laboratorio", joinColumns = @JoinColumn(name = "id_laboratorio"), inverseJoinColumns = @JoinColumn(name = "id_agendamento"))
     private Laboratorio laboratorio;
 }
