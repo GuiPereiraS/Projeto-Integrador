@@ -12,29 +12,29 @@ import java.util.List;
 @RequestMapping(value = "instrutor")
 public class InstrutorControllers {
 
-    final InstrutorServiceImpl instrutorServiceImpl;
+    final InstrutorServiceImpl instrutorService;
 
     public InstrutorControllers(InstrutorServiceImpl instrutorServiceImpl) {
-        this.instrutorServiceImpl = instrutorServiceImpl;
+        this.instrutorService = instrutorServiceImpl;
     }
     @PostMapping
-    public ResponseEntity<Object> salvarInstrutor(@RequestBody Instrutor instrutor){
-        Instrutor response = instrutorServiceImpl.salvar(instrutor);
+    public ResponseEntity<Object> salvarInstrutor(@RequestBody Instrutor instrutor) throws Exception {
+        Instrutor response = instrutorService.salvar(instrutor);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @DeleteMapping()
     public void deletarInstrutor(Long id) {
-        instrutorServiceImpl.delete(id);
+        instrutorService.delete(id);
     }
 
     @GetMapping
     public List<Instrutor> findAllInstrutor(){
-        return instrutorServiceImpl.listar();
+        return instrutorService.listar();
     }
 
     @PutMapping
     public void updateInstrutor(@RequestBody Instrutor instrutor){
-        instrutorServiceImpl.editar(instrutor);
+        instrutorService.editar(instrutor);
     }
 
 }

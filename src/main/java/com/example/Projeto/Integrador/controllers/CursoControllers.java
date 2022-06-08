@@ -12,31 +12,31 @@ import java.util.List;
 @RequestMapping(value = "curso")
 
 public class CursoControllers {
-    final CursoServiceImpl cursoServiceImpl;
+    final CursoServiceImpl cursoService;
 
 
     public CursoControllers(CursoServiceImpl cursoServiceImpl) {
-        this.cursoServiceImpl = cursoServiceImpl;
+        this.cursoService = cursoServiceImpl;
     }
 
     @PostMapping
-    public ResponseEntity<Object> salvarCurso(@RequestBody Curso curso){
-      Curso response = cursoServiceImpl.salvar(curso);
+    public ResponseEntity<Object> salvarCurso(@RequestBody Curso curso) throws Exception {
+      Curso response = cursoService.salvar(curso);
       return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @DeleteMapping()
     public void deletarCurso(Long id) {
-        cursoServiceImpl.deletar(id);
+        cursoService.deletar(id);
     }
 
     @GetMapping
     public List<Curso> findAllCurso(){
-        return cursoServiceImpl.listar();
+        return cursoService.listar();
     }
 
     @PutMapping
     public void updateCurso(@RequestBody Curso curso){
-        cursoServiceImpl.editar(curso);
+        cursoService.editar(curso);
     }
 
 }

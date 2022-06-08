@@ -13,28 +13,29 @@ import java.util.List;
 @RequestMapping(value = "agendamento")
 
 public class AgendamentoControllers {
-    final AgendamentoServiceImpl agendamentoServiceImpl;
+    final AgendamentoServiceImpl agendamentoService;
 
     public AgendamentoControllers(AgendamentoServiceImpl agendamentoServiceImpl) {
-        this.agendamentoServiceImpl = agendamentoServiceImpl;
+        this.agendamentoService = agendamentoServiceImpl;
     }
     @PostMapping
-    public ResponseEntity<Object> salvarAgendamento(@RequestBody Agendamento agendamento){
-        Agendamento response = agendamentoServiceImpl.salvar(agendamento);
+    public ResponseEntity<Object> salvarAgendamento(@RequestBody Agendamento agendamento) throws Exception {
+        Agendamento response = agendamentoService.salvar(agendamento);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @DeleteMapping()
     public void deletarAgendamento(Long id) {
-        agendamentoServiceImpl.deletar(id);
+        agendamentoService.deletar(id);
     }
 
     @GetMapping
-    public List<Agendamento> findAllAgendamento(){
-        return agendamentoServiceImpl.listar();
+    public ResponseEntity<Object> buscarAgendamento(){
+        List<Agendamento> response = agendamentoService.listar();
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
     @PutMapping
     public void updateAgendamento(@RequestBody Agendamento agendamento){
-        agendamentoServiceImpl.editar(agendamento);
+        agendamentoService.editar(agendamento);
     }
 }

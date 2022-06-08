@@ -6,6 +6,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -23,10 +24,10 @@ public class Agendamento {
     private Long id;
 
     @Column(name = "dataInicio")
-    private LocalDateTime dataInicio;
+    private LocalDate dataInicio;
 
     @Column(name = "dataFim")
-    private LocalDateTime dataFim;
+    private LocalDate dataFim;
 
     @Column(name = "horarioInicio")
     private String horarioInicio;

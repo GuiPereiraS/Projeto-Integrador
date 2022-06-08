@@ -1,5 +1,6 @@
 package com.example.Projeto.Integrador.service;
 
+import com.example.Projeto.Integrador.models.Curso;
 import com.example.Projeto.Integrador.models.Instrutor;
 import com.example.Projeto.Integrador.repositories.InstrutorRepository;
 import org.springframework.stereotype.Service;
@@ -16,7 +17,12 @@ public class InstrutorServiceImpl implements InstrutorService {
     }
 
     @Override
-    public Instrutor salvar(Instrutor instrutor) {
+    public Instrutor salvar(Instrutor instrutor) throws Exception {
+        List<Instrutor> ListaDeInstrutor = instrutorRepository.findInstrutorByNome(instrutor.getNome());
+        if(ListaDeInstrutor != null && ListaDeInstrutor.size() > 0){
+            throw new Exception("O instrutor " + instrutor.getNome() + " já foi registrado");
+        }
+
         return instrutorRepository.save(instrutor);
     }
 

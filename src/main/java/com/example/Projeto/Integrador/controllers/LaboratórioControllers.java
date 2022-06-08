@@ -13,28 +13,28 @@ import java.util.List;
 @RequestMapping(value = "laboratorio")
 public class LaboratórioControllers {
 
-    final LaboratorioServiceImpl laboratorioServiceImpl;
+    final LaboratorioServiceImpl laboratorioService;
 
     public LaboratórioControllers(LaboratorioServiceImpl laboratorioServiceImpl) {
-        this.laboratorioServiceImpl = laboratorioServiceImpl;
+        this.laboratorioService = laboratorioServiceImpl;
     }
     @PostMapping
-    public ResponseEntity<Object> salvarLaboratorio(@RequestBody Laboratorio laboratorio){
-        Laboratorio response = laboratorioServiceImpl.salvar(laboratorio);
+    public ResponseEntity<Object> salvarLaboratorio(@RequestBody Laboratorio laboratorio) throws Exception{
+        Laboratorio response = laboratorioService.salvar(laboratorio);
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
     @DeleteMapping()
     public void deletarAgendamento(Long id) {
-        laboratorioServiceImpl.deletar(id);
+        laboratorioService.deletar(id);
     }
 
     @GetMapping
     public List<Laboratorio> findAllLaboratorio(){
-        return laboratorioServiceImpl.listar();
+        return laboratorioService.listar();
     }
 
     @PutMapping
     public void updateLaboratorio(@RequestBody Laboratorio laboratorio){
-        laboratorioServiceImpl.editar(laboratorio);
+        laboratorioService.editar(laboratorio);
     }
 }

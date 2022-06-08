@@ -7,7 +7,7 @@ import java.util.List;
 public interface InstrutorService {
 
 
-    Instrutor salvar(Instrutor instrutor);
+    Instrutor salvar(Instrutor instrutor) throws Exception;
 
     Instrutor editar(Instrutor instrutor);
 
