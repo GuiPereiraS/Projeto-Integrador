@@ -29,10 +29,12 @@ public class AgendamentoServiceImpl implements AgendamentoService{
            if(agendamento.getDataFim().isBefore(agendamento.getDataInicio())){
                throw new Exception("Não é possivel realizar um agedamento com a data final menor que a data de inicio");
            }
-           if())){
-               throw new Exception("Não é possivel realizar um agedamento com a data final menor que a data de inicio");
-
-
+           if(horarioFim< horarioInicio) {
+               throw new Exception("Não é possivel realizar um agedamento com a horario final menor que o horario de inicio");
+           }
+           if(agendamento.getHorarioInicio().equals(agendamento.getHorarioFim())) {
+               throw new Exception("Não é possivel realizar um agedamento com a hora de inicio igual a hora final");
+           }
 
 
 
