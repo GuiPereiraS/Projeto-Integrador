@@ -5,6 +5,7 @@ import com.example.Projeto.Integrador.models.Instrutor;
 import com.example.Projeto.Integrador.repositories.InstrutorRepository;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
 
 @Service
@@ -18,10 +19,13 @@ public class InstrutorServiceImpl implements InstrutorService {
 
     @Override
     public Instrutor salvar(Instrutor instrutor) throws Exception {
-        List<Instrutor> ListaDeInstrutor = instrutorRepository.findInstrutorByNome(instrutor.getNome());
-        if(ListaDeInstrutor != null && ListaDeInstrutor.size() > 0){
-            throw new Exception("O instrutor " + instrutor.getNome() + " já foi registrado");
-        }
+
+        List<Instrutor> ListaDeInstrutor = instrutorRepository.findInstrutorByEmail (instrutor.getEmail());
+            if(ListaDeInstrutor != null && ListaDeInstrutor.size() > 0){
+                throw new EntityNotFoundException("O Email " + instrutor.getEmail() + " já foi registrado");
+        } else {
+
+            }
 
         return instrutorRepository.save(instrutor);
     }

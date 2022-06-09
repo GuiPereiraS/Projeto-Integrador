@@ -8,7 +8,6 @@ import java.util.List;
 
 public interface InstrutorRepository extends JpaRepository<Instrutor, Long> {
 
-    List<Instrutor> findInstrutorByNome(String nome);
 
-
+    List<Instrutor> findInstrutorByEmail(String email);
 }

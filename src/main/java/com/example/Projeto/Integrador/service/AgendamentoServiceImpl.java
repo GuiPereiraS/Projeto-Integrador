@@ -20,15 +20,44 @@ public class AgendamentoServiceImpl implements AgendamentoService{
     @Override
     public Agendamento salvar(Agendamento agendamento) throws Exception {
 
-        List<Agendamento> Data = agendamentoRepository.findAgendamentoByDataInicio(agendamento.getDataInicio());
-        if(Data != null && Data.size() > 0){
-            throw new Exception("O agendamento " + agendamento.getDataInicio() + " já foi resgistrado");
-        }
-        List<Agendamento> HorarioInicio = agendamentoRepository.findAgendamentoByHorarioInicio(agendamento.getHorarioInicio());
-        if(HorarioInicio != null && HorarioInicio.size() > 0){
-            throw new Exception("O agendamento " + agendamento.getHorarioInicio() + " já foi resgistrado");
+           String[] horaInicio = agendamento.getHorarioInicio().split(":");
+           String[] horaFim = agendamento.getHorarioFim().split(":");
 
-        }
+           Integer horarioInicio = Integer.parseInt(horaInicio[0]);
+           Integer horarioFim = Integer.parseInt(horaFim[0]);
+
+           if(agendamento.getDataFim().isBefore(agendamento.getDataInicio())){
+               throw new Exception("Não é possivel realizar um agedamento com a data final menor que a data de inicio");
+           }
+           if())){
+               throw new Exception("Não é possivel realizar um agedamento com a data final menor que a data de inicio");
+
+
+
+
+
+
+
+            // List<Agendamento> Data = agendamentoRepository.findAgendamentoByDataInicio(agendamento.getDataInicio());
+       // List<Agendamento> HorarioInicio = agendamentoRepository.findAgendamentoByHorarioInicio(agendamento.getHorarioInicio());
+       // List<Agendamento> HorarioFim  = agendamentoRepository.findAgendamentoByHorarioFim(agendamento.getHorarioFim());
+       // List<Agendamento> Numlaboratorio = agendamentoRepository.findAgendamentoByHorarioFim(agendamento.getHorarioFim());
+
+
+        //if  (Data != null && Data.size() > 0){
+        //        throw new Exception("O agendamento " + agendamento.getDataInicio() + " já foi resgistrado");}
+        //else if (HorarioInicio != null && HorarioInicio.size() > 0){
+        //        throw new Exception("O agendamento " + agendamento.getHorarioInicio() + " já foi resgistrado");}
+       // else if (agendamento.getDataFim().isBefore(agendamento.getDataInicio())){
+        //    throw new Exception("Nao é possivel agendar com data de termino anterior a de inicio");        }
+        //Feito Pelo Professor
+        //if(agendamento.getHorarioInicio().equals(agendamento.getHorarioFim())) {
+         //   throw new Exception("Nao é possivel salvar um agendamento com a hora de inicio igual a hora de termino.");}
+        //   else if (agendamento.getHorarioInicio() < agendamento.getHorarioFim()){}
+
+
+
+
 
         return agendamentoRepository.save(agendamento);
     }
