@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/repositories/InstrutorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/repositories/InstrutorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/AgendamentoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/AgendamentoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/CursoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/CursoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/InstrutorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/InstrutorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/LaboratorioRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/LaboratorioRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/AgendamentoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/CursoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/LaboratorioServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +102,7 @@
       <workItem from="1654190332277" duration="597000" />
       <workItem from="1654629385162" duration="4113000" />
       <workItem from="1654708373335" duration="10894000" />
-      <workItem from="1654793283046" duration="8625000" />
+      <workItem from="1654793283046" duration="10438000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -197,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654720317958</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Projeto integrador">
+      <created>1654806653625</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654806653625</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Projeto integrador">
+      <created>1654806813084</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654806813084</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
