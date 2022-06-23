@@ -30,7 +30,5 @@ public class Instrutor {
     @Column(name = "senha")
     private String senha;
 
-    @Column(name = "numeroID")
-    private String numeroID;
 
 }
