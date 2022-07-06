@@ -1,6 +1,5 @@
 package com.example.Projeto.Integrador.service;
 
-import com.example.Projeto.Integrador.models.Curso;
 import com.example.Projeto.Integrador.models.Instrutor;
 import com.example.Projeto.Integrador.repositories.InstrutorRepository;
 import org.springframework.stereotype.Service;
@@ -19,20 +18,18 @@ public class InstrutorServiceImpl implements InstrutorService {
 
     @Override
     public Instrutor salvar(Instrutor instrutor) throws Exception {
+       Instrutor emailInstrutor = instrutorRepository.findByEmailInstrutor(instrutor.getEmail());
 
-        List<Instrutor> ListaDeInstrutor = instrutorRepository.findInstrutorByEmail (instrutor.getEmail());
-            if(ListaDeInstrutor != null && ListaDeInstrutor.size() > 0){
-                throw new EntityNotFoundException("O Email " + instrutor.getEmail() + " já foi registrado");
+            if(emailInstrutor != null) {
+                throw new EntityNotFoundException("Email já cadastrado");
         } else {
-
+                return instrutorRepository.save(instrutor);
             }
-
-        return instrutorRepository.save(instrutor);
     }
 
     @Override
     public Instrutor editar(Instrutor instrutor) {
-        return instrutorRepository.save(instrutor);
+        return null;
     }
 
     @Override
@@ -41,9 +38,14 @@ public class InstrutorServiceImpl implements InstrutorService {
     }
 
     @Override
-    public void delete(Long id) {
-        instrutorRepository.deleteById(id);
-    }
+    public Instrutor buscarInstrutorPorEmail(Instrutor instrutor) throws Exception {
 
+        Instrutor instrutor1 = instrutorRepository.findByEmailInstrutor(instrutor.getEmail());
+
+        if (instrutor1 != null && instrutor1.getEmail().equals(instrutor.getEmail()) && instrutor1.getSenha().equals(instrutor.getSenha())) {
+            return instrutor1;
+        }
+        throw new Exception("Email ou senha incorreto!");
+    }
 
 }

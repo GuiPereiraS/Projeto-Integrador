@@ -13,6 +13,6 @@ public interface InstrutorService {
 
     List<Instrutor> listar();
 
-    void delete (Long id);
+    Instrutor buscarInstrutorPorEmail (Instrutor instrutor) throws Exception;
 
 }
