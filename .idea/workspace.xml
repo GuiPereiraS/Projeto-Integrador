@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/controllers/InstrutorControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/repositories/InstrutorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/repositories/InstrutorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/service/InstrutorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/controllers/InstrutorControllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/InstrutorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/repositories/InstrutorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/Projeto/Integrador/service/InstrutorServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,8 @@
       <workItem from="1656533180242" duration="1003000" />
       <workItem from="1656608244608" duration="4541000" />
       <workItem from="1657039848601" duration="5931000" />
-      <workItem from="1657125161447" duration="3403000" />
+      <workItem from="1657125161447" duration="4059000" />
+      <workItem from="1657300386352" duration="2414000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -236,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656015728500</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Projeto integrador">
+      <created>1657139479263</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657139479263</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
