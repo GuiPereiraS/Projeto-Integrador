@@ -1,10 +1,8 @@
 package com.example.Projeto.Integrador.models;
 
+import lombok.*;
+import lombok.Getter;
 import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Entity
@@ -13,6 +11,8 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
+@Builder()
+
 public class Instrutor {
 
     @Id

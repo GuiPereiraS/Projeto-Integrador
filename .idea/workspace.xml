@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/InstrutorModelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -58,6 +64,9 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/guilherme.96900/Documents/Projeto-Integrador2&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.45747125&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;9f0275805238f934553d14ab59ca5bba&quot;
   }
@@ -115,6 +124,11 @@
       <workItem from="1657039848601" duration="5931000" />
       <workItem from="1657125161447" duration="4059000" />
       <workItem from="1657300386352" duration="2414000" />
+      <workItem from="1657650297612" duration="195000" />
+      <workItem from="1657650655783" duration="595000" />
+      <workItem from="1657654812077" duration="196000" />
+      <workItem from="1657655214185" duration="1371000" />
+      <workItem from="1657730455426" duration="4853000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -235,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657139479263</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Projeto integrador">
+      <created>1657650443288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657650443288</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
