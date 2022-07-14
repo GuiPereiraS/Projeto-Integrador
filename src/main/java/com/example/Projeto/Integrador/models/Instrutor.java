@@ -1,7 +1,7 @@
 package com.example.Projeto.Integrador.models;
 
 import lombok.*;
-import lombok.Getter;
+
 import lombok.AllArgsConstructor;
 import javax.persistence.*;
 

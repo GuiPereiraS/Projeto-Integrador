@@ -1,9 +1,6 @@
 package com.example.Projeto.Integrador.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
@@ -13,14 +10,13 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "10")
-
+@Builder
 public class Laboratorio {
 
     @Id
     @Column(name = "id_laboratorio")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
 
     @Column(name = "nome")
     private String nome;

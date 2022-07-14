@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d8f455d-0308-458b-813c-ec935bbed325" name="Changes" comment="Projeto integrador">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/InstrutorModelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/AgendamentoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/CursoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/InstrutorTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/LaboratorioTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/AgendamentoModelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/CursoModelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/LaboratorioModelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Agendamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Instrutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Projeto/Integrador/models/Laboratorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/InstrutorModelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/Projeto/Integrador/modelos/InstrutorModelo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +138,8 @@
       <workItem from="1657650655783" duration="595000" />
       <workItem from="1657654812077" duration="196000" />
       <workItem from="1657655214185" duration="1371000" />
-      <workItem from="1657730455426" duration="4853000" />
+      <workItem from="1657730455426" duration="7310000" />
+      <workItem from="1657818114197" duration="7798000" />
     </task>
     <task id="LOCAL-00001" summary="Projeto integrador">
       <created>1652290609892</created>
@@ -256,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657650443288</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Projeto integrador">
+      <created>1657743338562</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657743338562</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

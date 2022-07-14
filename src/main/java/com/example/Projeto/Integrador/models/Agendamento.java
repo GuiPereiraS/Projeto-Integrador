@@ -14,7 +14,7 @@ import java.util.Date;
 @AllArgsConstructor
 @EqualsAndHashCode(of = "10")
 
-@Builder(toBuilder = true)
+@Builder
 public class Agendamento {
 
     @Id

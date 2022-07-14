@@ -1,28 +1,27 @@
 package com.example.Projeto.Integrador.modelos;
 
+import com.example.Projeto.Integrador.models.Curso;
 import com.example.Projeto.Integrador.models.Instrutor;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class InstrutorModelo {
-    public static Instrutor construirCenario () {
-        Instrutor instrutor;
+public class CursoModelo {
 
-        instrutor = Instrutor.builder()
+    public static Curso construirCenario () {
+        Curso curso = null;
+
+        curso = curso.builder()
                 .id(1l)
-                .email("teste@gmail.com")
-                .nome("teste")
-                .senha("q123123")
+                .nome("Programação")
+                .quantidadeDeAluno(15)
                 .build();
 
-        return instrutor;
+        return curso;
     }
 
 
-    public static void reset() {
-    }
 }
 
 
